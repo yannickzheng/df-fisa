@@ -16,7 +16,28 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+html, body {
+  font-family: "Georama", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #222;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
 
+p{
+  text-align: justify;
+}
+
+.georama-unique {
+  font-family: "Georama", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -37,7 +58,33 @@ html {
 /*
  * A better looking default horizontal rule
  */
+.periode-ecole {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
 
+.periode-entreprise {
+  background-color: #cff4fc;
+  color: #055160;
+}
+
+.week-end {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+}
+.bloc1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  max-width: 1200px; /* Adjust the width as needed */
+  padding: 200px; /* Optional: Add padding for better spacing */
+}
 hr {
   display: block;
   height: 1px;
@@ -46,7 +93,72 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Optional: Adjust the gap between images */
+}
 
+.image-container img {
+  max-width: 333px; /* Optional: Adjust the max width of the images */
+  height: auto;
+}
+
+
+
+.round-button-outline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: white;
+  color: #007BFF;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 2px dashed green;
+  box-sizing: border-box;
+}
+
+.round-button-outline:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.round-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.round-button:hover {
+  background-color: #0056b3;
+}
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -117,6 +229,34 @@ textarea {
   white-space: nowrap;
   width: 1px;
   /* 1 */
+}
+.text-gray {
+  color: gray;
+}
+.text-lightgrey{
+  color: lightgrey;
+}
+.text-blue{
+  color: #003cff;
+}
+.text-italic{
+  font-style: italic;
+}
+.button-lightblue{
+  background-color: rgba(0, 123, 255, 0.32);
+  transition: background-color 0.3s;
+}
+.button-red{
+  background-color: rgba(255, 0, 153, 0.29);
+  transition: background-color 0.3s;
+}
+.button-green{
+  background-color: rgba(0, 255, 0, 0.11);
+  transition: background-color 0.3s;
+}
+.button-purple{
+  background-color: rgba(255, 0, 255, 0.11);
+  transition: background-color 0.3s;
 }
 
 /*
@@ -245,3 +385,15 @@ textarea {
   }
 }
 
+.footer{
+  background-color: #222222;
+}
+.text-white{
+  color: white;
+}
+.header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color: beige;
+}
