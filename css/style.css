@@ -24,7 +24,7 @@ html, body {
   font-variation-settings: "wdth" 100;
   color: #222;
   font-size: 1.1em;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 p{
@@ -82,8 +82,8 @@ hr {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  max-width: 1200px; /* Adjust the width as needed */
-  padding: 200px; /* Optional: Add padding for better spacing */
+  max-width: 1400px; /* Adjust the width as needed */
+  padding: 150px; /* Optional: Add padding for better spacing */
 }
 hr {
   display: block;
@@ -130,9 +130,7 @@ hr {
   box-sizing: border-box;
 }
 
-.round-button-outline:hover {
-  background-color: #f0f0f0;
-}
+
 
 
 
@@ -156,9 +154,7 @@ hr {
 
 }
 
-.round-button:hover {
-  background-color: #0056b3;
-}
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -396,4 +392,32 @@ textarea {
   justify-content: space-between;
   align-items: center;
 background-color: beige;
+}
+.pré-sommaire{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+}
+.square-button{
+  display: inline-block;
+  padding: 25px 60px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  background-color: beige;
+
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.telecom-sudparis.eu/wp-content/uploads/2018/09/IMG_9566-min-1024x683.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.09; /* Ajustez l'opacité selon vos besoins */
+  z-index: -1; /* Assurez-vous que l'image de fond est derrière le contenu */
 }
