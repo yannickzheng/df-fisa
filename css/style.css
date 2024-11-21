@@ -132,7 +132,7 @@ hr {
   text-decoration: none;
   transition: background-color 0.3s;
   border: 2px dashed green;
-  box-sizing: border-box;
+
 }
 
 
@@ -458,4 +458,20 @@ background-color: beige;
   max-width: 600px;
   margin: 10px 20px;
   box-sizing: border-box;
+}
+.photo{
+  border-radius: 360px;
+  object-fit: cover;
+}
+.identite{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  height: 100%;
 }
