@@ -1,35 +1,3 @@
 Dans le header, il faut que le sommaire soit des boutons où on peut cliquer n'importe où dans la case associée à la page pour y aller et non uniquement le lien texte.
 
-<h1>Deuxième Année : Ouverture</h1>
-  <div class="bloc">
-    <div class="semestre7">
-      <h3>Semestre 7</h3>
-      <hr>
-      <ul>
-        <li>Réseaux Optiques</li>
-        <li>Théorie du signal</li>
-        <li>Consommation énergétique du numérique</li>
-        <li>Réseaux virtuels</li>
-        <li>Théorie des communications</li>
-        <li>Contenus visuels : codage et traçage</li>
-        <li>Réseaux cellulaires et évolutions</li>
-        <li>Infrastructure intelligente logicielle des réseaux mobiles</li>
-        <li>Communication et affaires</li>
-        <li>Anglais</li>
-      </ul>
-    </div>
-    <div class="semestre8">
-      <h3>Semestre 8</h3>
-      <hr>
-      <ul>
-        <li>Files d'attente</li>
-        <li>Qualité de service</li>
-        <li>Systèmes hautes fréquences</li>
-        <li>Architectures distribuées et applications web</li>
-        <li>Iot et Big Data</li>
-        <li>Modules de pré-VAP</li>
-        <li>Anglais</li>
-        <li>Séjour à l'international</li>
-      </ul>
-    </div>
-  </div>
+Faire la version en anglais et mobile du site
