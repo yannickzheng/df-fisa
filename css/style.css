@@ -410,12 +410,15 @@ background-color: beige;
 .square-button{
 
   display: inline-block;
-  padding: 25px 60px;
+  padding: 30px 65px;
   border-radius: 5px;
-  color: white;
+  color: blue;
   text-align: center;
+  cursor: pointer;
   text-decoration: none;
   background-color: beige;
+
+
 
 }
 .background {
