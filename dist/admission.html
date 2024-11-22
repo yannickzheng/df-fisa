@@ -15,20 +15,23 @@
 </head>
 <link rel="stylesheet" href="css/style.css">
 
-<div class="bloc1">
-  <div class="background">
-  </div>
+<body>
+<div class="background">
+</div>
 
-  <div id="header-placeholder">
+<div id="header-placeholder">
   <script>
     // Load header.html content into the placeholder
     fetch('header.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('header-placeholder').innerHTML = data;
-      });
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('header-placeholder').innerHTML = data;
+            });
   </script>
-  </div>
+</div>
+
+<div class="bloc1">
+
 
 
 <h1>Admission en cycle ingénieur Informatique et Réseaux en apprentissage </h1>
@@ -105,5 +108,6 @@
   </script>
 </div>
 </div>
+</body>
 </html>
 

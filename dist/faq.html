@@ -15,20 +15,27 @@
 </head>
 <link rel="stylesheet" href="css/style.css">
 
+<body>
+
+
+
+<div id="header-placeholder">
+    <script>
+        // Load header.html content into the placeholder
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+</div>
+
+
 <div class="bloc1">
     <div class="background">
     </div>
 
-    <div id="header-placeholder">
-        <script>
-            // Load header.html content into the placeholder
-            fetch('header.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('header-placeholder').innerHTML = data;
-                });
-        </script>
-    </div>
+
 
 
     <h1>Foire aux questions</h1>
@@ -119,15 +126,19 @@
 
 
 
-    <div id="footer-placeholder">
-        <script>
-            // Load footer.html content into the placeholder
-            fetch('footer.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('footer-placeholder').innerHTML = data;
-                });
-        </script>
-    </div>
+
 </div>
+<div id="footer-placeholder">
+    <script>
+        // Load footer.html content into the placeholder
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+</div>
+</body>
+
+
 </html>
