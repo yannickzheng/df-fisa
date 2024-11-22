@@ -264,17 +264,18 @@
     <p>Vous pouvez <a href="contacts.html">contacter directement par email</a> le responsable des programmes ou la
         responsable administrative de la formation.</p>
 
-    <div id="footer-placeholder"></div>
 
-    <script>
-        // Load footer.html content into the placeholder
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-placeholder').innerHTML = data;
-            });
-    </script>
 </div>
+<div id="footer-placeholder"></div>
+
+<script>
+    // Load footer.html content into the placeholder
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
+</script>
 </body>
 
 </html>
