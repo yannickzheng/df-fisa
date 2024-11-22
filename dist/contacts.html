@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formation d'ingénieur informatique et réseaux par apprentissage - Télécom SudParis</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<div class="bloc1">
+  <div class="background">
+  </div>
+
+  <div id="header-placeholder">
+    <script>
+      // Load header.html content into the placeholder
+      fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header-placeholder').innerHTML = data;
+        });
+    </script>
+  </div>
+
+  <h2>Responsabilités et contacts</h2>
+  <hr>
+  <p>Voici la liste des personnes à contacter en fonction de leurs responsabilités. Nous sommes joignables par téléphone, par email (de préférence), ou directement dans nos bureaux :</p>
+
+
+
+  <div class="identite-container" style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 20px;">
+    <div class="identite" style="display: flex; flex-direction: row; align-items: center; gap: 20px; flex: 1;">
+      <img src="https://www.fisa.telecom-sudparis.eu/cecile.webp" alt="Cécile Delafont" class="photo" width="150" height="auto">
+      <div class="content">
+        <p><strong>Cécile Delafont</strong></p>
+        <p class="text-gray">Responsable administrative</p>
+        <a href="mailto:cecile.delafont@telecom-sudparis.eu">cecile.delafont@telecom-sudparis.eu</a>
+      </div>
+    </div>
+
+    <div class="identite" style="display: flex; flex-direction: row; align-items: center; gap: 20px; flex: 1;">
+      <img src="https://www.fisa.telecom-sudparis.eu/elsa.webp" alt="Elsa" class="photo" width="150" height="auto">
+      <div class="content">
+        <p><strong>Elsa Benhamouche</strong></p>
+        <p class ="text-gray">Scolarité, Intégration et Accompagnement des étudiants</p>
+        <a href="mailto:elsa.benhamouche@telecom-sudparis.eu">elsa.benhamouche@telecom-sudparis.eu</a>
+      </div>
+    </div>
+
+    <div class="identite" style="display: flex; flex-direction: row; align-items: center; gap: 20px; flex: 1;">
+      <img src="https://www.fisa.telecom-sudparis.eu/clara.webp" alt="Clara" class="photo" width="150" height="auto">
+      <div class="content">
+        <p><strong>Clara Lamotte</strong></p>
+        <p class="text-gray">Gestionnaire de scolarité</p>
+        <a href="mailto:clara.lamotte@telecom-sudparis.eu">clara.lamotte@telecom-sudparis.eu</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="footer-placeholder">
+    <script>
+      // Load footer.html content into the placeholder
+      fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('footer-placeholder').innerHTML = data;
+        });
+    </script>
+  </div>
+</div>
+</html>
