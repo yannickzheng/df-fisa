@@ -2,16 +2,15 @@ Dans le header, il faut que le sommaire soit des boutons où on peut cliquer n'i
 
 Faire la version en anglais et mobile du site
 
-
 Le header doit faire toute la largeur et m'assurer qu'il tienne en une seule ligne, pas d'espace en haut ni a gauche
-
 Les boutons doivent être espacés un peu plus
+Enlever les espaces avant et après les ponctuations
 
 Améliorer la lisibilité des textes
 
 faire le tableau version mobile
 
-Enlever les espaces avant et après les ponctuations
+
 
 Avec le CSS, ne pas mettre des PX mais des em, vw, % etc -> ne pas utiliser les unités standards
 

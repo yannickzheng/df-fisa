@@ -11,6 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+
 html, body {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
@@ -18,7 +20,7 @@ html, body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: #222;
-  font-size: 1.16em;
+  font-size: 1em;
   line-height: 1.5;
 }
 
@@ -78,7 +80,8 @@ hr {
   margin-right: auto;
   text-align: left;
   max-width: 1500px; /* Adjust the width as needed */
-  padding: 150px; /* Optional: Add padding for better spacing */
+  padding-left: 7em;
+  padding-right: 7em;/* Optional: Add padding for better spacing */
 }
 hr {
   display: block;
@@ -102,6 +105,7 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 10px; /* Optional: Adjust the gap between images */
+  flex-wrap : wrap;
 }
 
 .image-container img {
@@ -118,11 +122,12 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 20px;
   flex-grow: 1;
   padding: 10px 20px;
   border-radius: 50px;
   background-color: white;
-  color: #007BFF;
+  color: blue;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s;
@@ -145,11 +150,12 @@ hr {
   width: 100%;
   box-sizing: border-box;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border-radius: 50px;
   color: white;
   text-align: center;
   text-decoration: none;
+  margin: 15px;
 
 }
 
@@ -390,13 +396,15 @@ textarea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-background-color: beige;
+  background-color: beige;
+  flex-wrap: wrap;
 }
-.pré-sommaire{
+.pre-sommaire{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: beige;
+  flex-wrap : wrap;
 }
 .square-button{
 
