@@ -522,6 +522,60 @@ textarea {
     padding: 50% 1%;
     height: 100%
   }
+  .responsive-table {
+    display: block;
+  }
 
+  .responsive-table thead {
+    display: none; /* Masquer les en-têtes */
+  }
+
+  .responsive-table tbody {
+    display: block;
+  }
+
+  .responsive-table tr {
+    display: block;
+    margin-bottom: 15px; /* Ajoute de l'espace entre les lignes */
+  }
+
+  .responsive-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label); /* Affiche le label défini dans data-label */
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .responsive-table td:last-child {
+    border-bottom: 0; /* Pas de bordure pour la dernière cellule */
+  }
+  .responsive-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label); /* Affiche le label défini dans data-label */
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px; /* Ajoute un espace entre le label et la valeur */
+    border-right: 2px solid #000; /* Ajoute un trait vertical pour séparer */
+    margin-right: 10px; /* Espace après le trait */
+  }
+
+  /* Ajustement de style pour la dernière cellule d'une ligne */
+  .responsive-table td:last-child {
+    border-bottom: 0;
+  }
 
 }
