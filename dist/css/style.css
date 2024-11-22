@@ -122,9 +122,9 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1.25em;
+  margin: 1%;
   flex-grow: 1;
-  padding: 0.625em 1.25em;
+  padding: 6% 2%;
   gap: 1em;
   border-radius: 50px;
   background-color: white;
@@ -151,12 +151,12 @@ hr {
   width: 100%;
   box-sizing: border-box;
   display: inline-block;
-  padding: 20px 20px;
+  padding: 2% 2%;
   border-radius: 50px;
   color: white;
   text-align: center;
   text-decoration: none;
-  margin: 15px;
+  margin: 1%;
 
 }
 
@@ -495,4 +495,33 @@ textarea {
   flex-direction: column;
   justify-content: normal;
   height: 100%;
+}
+@media only screen and (max-width: 40em){
+  html, body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.5;
+
+  }
+  .edt1{
+    flex-direction: column;
+
+  }
+  .round-button-outline{
+    padding: 50% 1%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .round-button{
+    padding: 50% 1%;
+    height: 100%
+  }
+
+
 }
